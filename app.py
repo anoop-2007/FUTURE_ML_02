@@ -90,8 +90,8 @@ if st.button("Classify Ticket", type="primary"):
 st.divider()
 with st.expander("About this project"):
     st.markdown("""
-    This is a live demo of a machine learning system built for
-    **Task 2: Support Ticket Classification & Prioritization**.
+    This is a live demo of a machine learning system for
+    **Support Ticket Classification & Prioritization**.
 
     - **Approach:** TF-IDF vectorization + Logistic Regression
     - **Category model:** predicts Billing / Technical Issue / Refund Request /
